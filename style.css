@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#tooltip {
+  position: absolute;
+  background: lightsteelblue;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+}
+
+.cell {
+  stroke: white;
+  stroke-width: 0.5;
+}
+
+.axis text {
+  font-size: 12px;
+}
